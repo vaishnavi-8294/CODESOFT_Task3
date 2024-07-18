@@ -1,0 +1,67 @@
+/* Style your calculator here */
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #2196F3; /* Blue background */
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.screen-last {
+    font-size: 12px;
+    color: #888;
+}
+
+.screen-current {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White text color */
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-gray {
+    background-color: #64B5F6; /* Light blue button background */
+    color: #333; /* Dark text color */
+}
+
+.btn-orange {
+    background-color: #FF9800; /* Orange button background */
+    color: #fff; /* White text color */
+}
+
+.btn-green {
+    background-color: #4CAF50; /* Green button background */
+    color: #fff; /* White text color */
+}
+
+.btn:hover {
+    background-color: #ccc; /* Slightly darker gray on hover */
+}
